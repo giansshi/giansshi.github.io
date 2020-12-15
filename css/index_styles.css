@@ -1,0 +1,161 @@
+body {
+	font-family: Arial;
+	background-color: #FFFAFA;
+}
+#idk {
+	height: 2.7cm;
+}
+h1 {
+	font-family: Microsoft YaHei Light;
+	text-align: center;
+	padding-top: 30px;
+}
+h3 {
+	font-family: Calibri Light;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/*The next four are for the divs*/
+#miyaw {
+	position: relative;
+	left: 1.5cm;
+	top: 30px;
+	height: 8cm;
+	width: 11cm;
+}
+#arf {
+	position: relative;
+	left: 1.5cm;
+	top: 6cm;
+	height: 8cm;
+	width: 11cm;
+}
+#eww {
+	position: relative;
+	left: 16cm;
+	bottom: 13.5cm;
+	height: 8cm;
+	width: 11cm;
+}
+#shh {
+	position: relative;
+	left: 16cm;
+	bottom: 8cm;
+	height: 8cm;
+	width: 11cm;
+}
+
+img {
+	height: 7cm;
+	width: 11cm;
+}
+
+/*The next four are the texts underneath the pictures*/
+#abc {
+	background-color: #FF6347;
+	width: 3cm;
+	margin: auto;
+}
+#def {
+	background-color: #00FF7F;
+	width: 3cm;
+	margin: auto;
+}
+#ghi {
+	background-color: #FFD700;
+	width: 3.5cm;
+	margin: auto;
+}
+#jkl {
+	background-color: #5F9EA0;
+	width: 5cm;
+	margin: auto;
+}
+
+footer {
+	position: relative;
+	top: 5cm;
+	width: 99%;
+	float: left;
+	background-color: #FF8C94;
+}
+#lip, #pil, #ipl { /*The three divs at the bottom*/
+	padding: 10px;
+	position: relative;
+	top: 0.25cm;
+}
+#fez, #rup, #gli, #ort { /*The small icons*/
+	position: relative;
+	width: 33px;
+	height: 33px;
+}
+/*Image Sprites pt.1*/
+#asd {
+    position: relative;
+    display: inline-block;
+}
+#asd #tre {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#asd:hover #tre {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.2*/
+#iop {
+    position: relative;
+    display: inline-block;
+}
+#iop #tyu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#iop:hover #tyu {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.3*/
+#you {
+    position: relative;
+    display: inline-block;
+}
+#you #ljq {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#you:hover #ljq {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.4*/
+#wer {
+    position: relative;
+    display: inline-block;
+}
+#wer #rty {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#wer:hover #rty {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+

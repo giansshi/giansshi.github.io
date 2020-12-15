@@ -1,0 +1,192 @@
+body {
+	background-color: #F5F5F5;
+	margin: 20px;
+}
+header {   /*At the very top*/
+	font-family: Century Gothic;
+	background-color: #F18C8E;
+	height: 2cm;
+	text-align: center;
+	font-size: 1.25cm;
+	border: 2px solid black;
+}
+nav {    /*Below the header*/
+	font-family: Courier New;
+	background-color: #F0B784;
+	height: 1.0cm;
+	font-size: 0.70cm;
+	position: relative;
+	top: 20px;
+	padding: 5px;
+	border: 2px solid black;
+}
+a:link {	/*The Navigation Buttons*/
+	text-decoration: none;
+	color: black:
+}
+a:hover {
+	background-color: #F4A460;
+	color: white;
+}
+#poi {    /*The First Section*/
+	position: relative;
+	top: 50px;
+	float: left;
+	padding: 10px;
+	background-color: #F1D1B5;
+	width: 70%;
+	border: 2px solid black;
+}
+aside {		/*Sources*/
+	position: relative;
+	top: 50px;
+	font-family: Arial;
+	background-color: #568EA6;
+	float: right;
+	width: 27%;
+	border: 2px solid black;
+}
+a.vxz:link { /*For the Source part*/
+	text-decoration: none;
+	color: Black;
+}
+a.vxz:hover {
+	background-color: #00CED1;
+}
+
+#reyt {    /*The second section*/
+	position: relative;
+	top: 70px;
+	float: left;
+	padding: 10px;
+	background-color: #F1D1B5;
+	width: 99%;
+	border: 2px solid black;
+}
+h2 {
+	font-family: Segoe UI Light;
+	text-align: center;
+}
+p {
+	font-family: Arial;
+	text-align: justify;
+}
+ /*The next ones are the pictures at the second section*/
+#abc {    						
+	position: relative;
+	left: 0.5cm;
+	width: 8cm;
+	height: 6cm;
+}
+#def {
+	position: relative;
+	left: 0.5cm;
+	width: 8cm;
+	height: 6cm;
+}
+#ghi {
+	position: relative;
+	left: 0.5cm;
+	width: 8cm;
+	height: 6cm;
+}
+#jkl {
+	position: relative;
+	left: 0.5cm;
+	width: 8cm;
+	height: 6cm;
+}
+
+#elm { /*The third section*/
+	position: relative;
+	top: 3cm;
+	float: left;
+	padding: 10px;
+	background-color: #F1D1B5;
+	border: 2px solid black;
+}
+footer {
+	position: relative;
+	top: 5cm;
+	width: 99%;
+	float: left;
+	background-color: #305F72;
+}
+#lip, #pil, #ipl { /*The three divs at the bottom*/
+	padding: 10px;
+	position: relative;
+	top: 0.25cm;
+}
+#fez, #rup, #gli, #ort { /*The small icons*/
+	position: relative;
+	width: 33px;
+	height: 33px;
+}
+/*Image Sprites pt.1*/
+#asd {
+    position: relative;
+    display: inline-block;
+}
+#asd #tre {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#asd:hover #tre {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.2*/
+#iop {
+    position: relative;
+    display: inline-block;
+}
+#iop #tyu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#iop:hover #tyu {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.3*/
+#you {
+    position: relative;
+    display: inline-block;
+}
+#you #ljq {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#you:hover #ljq {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.4*/
+#wer {
+    position: relative;
+    display: inline-block;
+}
+#wer #rty {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#wer:hover #rty {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}

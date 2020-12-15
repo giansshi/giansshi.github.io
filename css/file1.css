@@ -1,0 +1,201 @@
+body {
+	background-color: #FFFFF0;
+}
+h1 {
+	font-family: Microsoft YaHei Light;
+	text-align: center;
+	padding-top: 30px;
+}
+p, ol, ul {
+	font-family: Microsoft YaHei Light;
+}
+a {
+	color: black;
+}
+#qwerty {
+	width: 300px;
+	height: 120px;
+	border-style: solid;
+	background-color: #FFF8DC;
+	padding: 3px;
+	position: relative;
+	top: 50px;
+	left: 100px;
+	font-family: Montserrat;
+	text-align: center;
+}
+#redvelvet {
+	background-color: #FAF0E6;
+	position: relative;
+	top: 1cm;
+	left: 11cm;
+	width: 15cm;
+	height: 6cm;
+	padding: 0.5cm;
+	text-align: justify; 
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+#edsae {
+	background-color: #F0FFFF;
+	position: relative;
+	left: 1cm;
+	bottom: 6cm;
+	width: 5cm;
+	height: 5cm;
+	padding: 0.25cm;
+	text-align: justify; 
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+#loona {
+	background-color: #FFFAF0;
+	position: relative;
+	left: 1.5cm;
+	bottom: 3cm;
+	width: 15cm;
+	height: 11cm;
+	padding: 0.5cm;
+	text-align: justify; 
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+#bts {
+	position: relative;
+	left: 18.7cm;
+	bottom: 13cm;
+}
+#bp {
+	position: relative;
+	left: 19.2cm;
+	bottom: 10cm;
+}
+#nct {
+	background-color: #FFFFE0;
+	position: relative;
+	left: 0.5cm;
+	bottom: 6.5cm;
+	width: 17cm;
+	height: 10cm;
+	padding: 0.5cm;
+	text-align: justify; 
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+#mmm {
+	background-color: #FFE4E1;
+	position: relative;
+	left: 21.4cm;
+	bottom: 30cm;
+	width: 5cm;
+	height: 4cm;
+	padding: 0.25cm;
+	text-align: justify; 
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+#tuwais {
+	position: relative;
+	background-color: #F5FFFA;
+	width: 15cm;
+	left: 1cm;
+	bottom: 4cm;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+#kard {
+	background-color: #E6E6FA;
+	position: relative;
+	left: 17cm;
+	bottom: 20cm;
+	width: 13.5cm;
+	height: 6cm;
+	padding: 0.5cm;
+	text-align: justify; 
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+footer {
+	background-color: #FFE4E1;
+}
+#fez, #rup, #gli, #ort {
+	position: relative;
+	width: 33px;
+	height: 33px;
+}
+/*Image Sprites pt.1*/
+#asd {
+    position: relative;
+    display: inline-block;
+}
+#asd #tre {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#asd:hover #tre {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.2*/
+#iop {
+    position: relative;
+    display: inline-block;
+}
+#iop #tyu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#iop:hover #tyu {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.3*/
+#you {
+    position: relative;
+    display: inline-block;
+}
+#you #ljq {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#you:hover #ljq {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+/*Image Sprites pt.4*/
+#wer {
+    position: relative;
+    display: inline-block;
+}
+#wer #rty {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#wer:hover #rty {
+	width: 33px;
+	height: 33px;
+    display: inline;
+}
+	
